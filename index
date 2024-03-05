@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Arte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .decorated-text {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 24px;
+      color: #333;
+    }
+    .section {
+      margin: 50px auto;
+      padding: 20px;
+      border: 2px solid #999;
+      max-width: 800px;
+    }
+    .section h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+    .section img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="decorated-text">Bienvenido a mi Portfolio de Arte</h1>
+    <nav>
+      <a href="#contacto" class="decorated-text">Contacto</a> |
+      <a href="#escultura" class="decorated-text">Escultura</a> |
+      <a href="#musica" class="decorated-text">Música</a> |
+      <a href="#representaciones" class="decorated-text">Representaciones</a>
+    </nav>
+  </header>
+
+  <section id="contacto" class="section">
+    <h2>Contacto</h2>
+    <p class="decorated-text">¡Contáctame para cualquier pregunta o colaboración!</p>
+    <p class="decorated-text">Correo electrónico: info@portfolio.com</p>
+  </section>
+
+  <section id="escultura" class="section">
+    <h2>Escultura</h2>
+    <img src="escultura1.jpg" alt="Escultura 1">
+    <img src="escultura2.jpg" alt="Escultura 2">
+    <img src="escultura3.jpg" alt="Escultura 3">
+  </section>
+
+  <section id="musica" class="section">
+    <h2>Música</h2>
+    <audio controls class="decorated-text">
+      <source src="musica.mp3" type="audio/mp3">
+      Tu navegador no soporta el elemento de audio.
+    </audio>
+    <p class="decorated-text">Escucha algunas de mis composiciones.</p>
+  </section>
+
+  <section id="representaciones" class="section">
+    <h2>Representaciones</h2>
+    <img src="representacion1.jpg" alt="Representación 1">
+    <img src="representacion2.jpg" alt="Representación 2">
+    <img src="representacion3.jpg" alt="Representación 3">
+  </section>
+
+  <footer>
+    <p class="decorated-text">© 2024 Portfolio de Arte</p>
+  </footer>
+</body>
+</html>
